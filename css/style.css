@@ -1,0 +1,53 @@
+/***** :Srollbar-Fix *****/
+* html{overflow-y:visible}
+  html{overflow-y:scroll}
+/***** Srollbar-Fix: *****/
+
+
+/***** :Links *****/
+a:link,a:visited {
+    color: #444;
+
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+
+a:hover,a:focus {color:#222}
+/***** Links: *****/
+
+
+/***** :Text-Selection *****/
+::-webkit-selection {background:#ffc; color:#333; text-shadow:none}
+   ::-moz-selection {background:#ffc; color:#333; text-shadow:none}
+        ::selection {background:#ffc; color:#333; text-shadow:none}
+/***** Text-Selection: *****/
+
+
+/***** :Breadcrumbs *****/
+.nav                        {list-style:none; margin:0}
+.nav li                     {display:inline}
+.nav a                      {display:inline-block}
+.nav li:before              {content:"| "}
+.nav li:first-child:before  {content:normal}
+/***** Breadcrumbs: *****/
+
+
+.totop{position:fixed; bottom:0; right:3px; color:#aaff00; cursor:pointer}
+
+
+/***** :Media Queries *****/
+@media only screen and (max-width: 480px) {
+	/* Wide mobile (480px+) styles go here */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablets/netbooks (768px+) styles go here */
+}
+
+@media only screen and (max-width: 1024px) {
+	/* Desktops (1024px+) styles go here */
+}
+/***** Media Queries: *****/
