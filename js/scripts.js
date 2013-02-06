@@ -1,4 +1,4 @@
-var AppNamespace = $(function () {
+var App = (function ($, window, document) {
     'use strict';
-    // some jQuery magic here
-})();
+    // some magic here
+}(jQuery, window, document));
